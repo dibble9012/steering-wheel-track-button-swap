@@ -1,0 +1,17 @@
+{
+  "changes": [
+    {
+      "type": "lines",
+      "path": "/system/usr/keylayout/daudio_wp_daudioplus_cvev_base.kl",
+      "stock": "any",
+      "comment": [
+        "key 34    CHANNEL_UP",
+        "key 35    CHANNEL_DOWN"
+      ],
+      "add": [
+        "key 34    CHANNEL_DOWN",
+        "key 35    CHANNEL_UP"
+      ]
+    }
+  ]
+}

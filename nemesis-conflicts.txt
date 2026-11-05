@@ -1,0 +1,2 @@
+# NEMESIS packages that swap the same two lines of the key layout, and can't be installed with this one.
+hmgapi.steering-wheel-track-button-swap  hkmc.track-button-swap,local.hkmc.swrc-swap

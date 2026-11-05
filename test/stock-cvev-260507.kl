@@ -1,0 +1,83 @@
+# Copyright (C) 2010 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Generic key layout file for full alphabetic US English PC style external keyboards.
+#
+# This file is intentionally very generic and is intended to support a broad rang of keyboards.
+# Do not edit the generic key layout to support a specific keyboard; instead, create
+# a new key layout file with the required keyboard configuration.
+#
+
+# (typecode << 4) | keycode
+
+# row 1
+key 1     POWER_AVN
+key 2     SEEK_DOWN
+key 3     SEEK_UP
+key 4     SHORTCUT_MAP
+key 5     SHORTCUT_NAVI
+key 6     SHORTCUT_HOME
+key 7     VOLUME_DOWN
+key 8     VOLUME_UP
+
+# row 2
+key 17    TUNE_ENTER
+key 18    SHORTCUT_RADIO
+key 19    SHORTCUT_MEDIA
+key 20    SHORTCUT_CUSTOM
+key 21    SHORTCUT_SETUP
+key 22    SHORTCUT_PHONE
+key 23    TUNE_UP
+key 24    TUNE_DOWN
+
+# steering wheel
+key 33    STB_POWER
+key 34    CHANNEL_UP
+key 35    CHANNEL_DOWN
+key 36    SHORTCUT_MODE
+key 37    MUTE
+key 38    VOLUME_UP
+key 39    VOLUME_DOWN
+key 40    SHORTCUT_PTT
+key 41    SHORTCUT_SWRC_CUSTOM
+key 42    CALL
+key 43    SHORTCUT_SWRC_CUSTOM
+
+# mts push
+key 66    SHORTCUT_BLUELINK_CENTER
+key 67    SHORTCUT_POI
+key 68    SHORTCUT_SOS
+key 69    SHORTCUT_TMUCALL
+key 70    SHORTCUT_POI
+
+# rrc push
+key 97    CHANNEL_UP
+key 98    CHANNEL_DOWN
+key 99    SHORTCUT_MODE
+key 100   MUTE
+key 101   SEEK_UP
+key 102   SEEK_DOWN
+key 103   POWER_AVN
+key 104   SHORTCUT_PTT_REAR
+
+# cd eject push
+key 112   CDROM_EJECT
+
+# These are the buttons that the joystick supports, represented as keys.
+key 129   BUTTON_A
+key 130   BUTTON_B
+
+key 26    SHORTCUT_ROOM_MIRROR_STUCK
+key 11    SHORTCUT_ROOM_MIRROR_STUCK_RELEASE

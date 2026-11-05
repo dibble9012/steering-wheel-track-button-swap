@@ -1,0 +1,12 @@
+{
+  "id": "steering-wheel-track-button-swap",
+  "name": "Steering Wheel Track Button Swap",
+  "version": "1.0.0",
+  "hmgapi": ">=1.0.0",
+  "authors": ["Kyle"],
+  "license": "AGPL-3.0",
+  "description": "Swaps the steering wheel's track up and track down buttons, for every audio source. Restart the head unit after installing, turning it on or off, or removing it.",
+  "system": [
+    { "model": ["CVEV"], "region": "USA", "firmware": "260507" }
+  ]
+}
